@@ -1,0 +1,11 @@
+[package]
+name = "hello_gst"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glib = "0.15"
+gio = "0.15"
+gst = { version = "0.18", package = "gstreamer" }
